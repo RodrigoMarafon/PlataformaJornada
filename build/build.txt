@@ -1,0 +1,1 @@
+eas submit -p ios --latest --apple-team-id 2ZP3M7KG8H --apple-api-key-id KDRER7HYKOKF --apple-api-issuer-id 4f25790c-4339-4c2c-ae44-efbb30c79066 --apple-api-key-path ./AuthKey_866ZLSX6ZW.p8
