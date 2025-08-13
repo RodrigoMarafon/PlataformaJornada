@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Jornada",
+    "slug": "Jornada",
+    "version": "1.0.0",
+    "orientation": "default",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "android": {
+      "package": "com.ibacbrasil.jornada",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "WAKE_LOCK",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Precisamos da câmera pra acessar o site.",
+        "NSMicrophoneUsageDescription": "Precisamos do microfone pra chamadas ou gravações.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.ibacbrasil.jornada"
+    },
+    "icon": "assets/images/icon.png",
+    "splash": {
+      "image": "assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4232eace-4a11-4ef9-8131-926c3bd3e5b7"
+      }
+    },
+    "owner": "rodrigomarafon",
+    "plugins": [
+      "expo-audio"
+    ]
+  }
+}
