@@ -18,9 +18,13 @@
   "submit": {
     "production": {
       "ios": {
-        "ascAppId": "1234567890", 
-        "appleTeamId": "2ZP3M7KG8H"
+       "appleId": "rodrigo.marafon@ibacbrasil.com",
+        "ascAppId": "6749921327",               
+        "appleTeamId": "2ZP3M7KG8H",            
+        "ascApiKeyPath": "./AuthKey_866ZLSX6ZW.p8",
+        "ascApiKeyIssuerId": "4f25790c-4339-4c2c-ae44-efbb30c79066",
+        "ascApiKeyId": "866ZLSX6ZW"
       }
     }
-  }
+  } 
 }
