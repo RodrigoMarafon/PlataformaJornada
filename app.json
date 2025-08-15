@@ -2,9 +2,12 @@
   "expo": {
     "name": "Jornada",
     "slug": "Jornada",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "orientation": "default",
-    "platforms": ["android","ios"],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "android": {
       "package": "com.ibacbrasil.jornada",
       "permissions": [
@@ -15,7 +18,7 @@
         "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
-    "ios": {
+   "ios": {
       "bundleIdentifier": "com.ibacbrasil.jornada",
       "supportsTablet": true,
       "infoPlist": {
@@ -35,16 +38,13 @@
       "backgroundColor": "#ffffff"
     },
     "extra": {
-      "eas": { "projectId": "4232eace-4a11-4ef9-8131-926c3bd3e5b7" }
+      "eas": {
+        "projectId": "4232eace-4a11-4ef9-8131-926c3bd3e5b7"
+      }
     },
     "owner": "rodrigomarafon",
     "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "ios": { "deploymentTarget": "11.0" }
-        }
-      ]
+      "expo-audio"
     ]
   }
 }
