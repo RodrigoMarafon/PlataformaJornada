@@ -27,7 +27,6 @@
         "NSCameraUsageDescription": "Precisamos acessar a câmera para que você possa usar funcionalidades do site dentro do app.",
         "NSMicrophoneUsageDescription": "Precisamos do microfone para chamadas e gravações dentro do app.",
         "NSPhotoLibraryUsageDescription": "Precisamos acessar suas fotos para carregar e baixar arquivos quando solicitado.",
-        "NSUserTrackingUsageDescription": "Suas informações não serão usadas para acompanhar você fora deste app sem consentimento explícito.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
