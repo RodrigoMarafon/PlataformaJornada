@@ -2,12 +2,9 @@
   "expo": {
     "name": "Jornada",
     "slug": "Jornada",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "default",
-    "platforms": [
-      "android",
-      "ios"
-    ],
+    "platforms": ["android","ios"],
     "android": {
       "package": "com.ibacbrasil.jornada",
       "permissions": [
@@ -19,12 +16,17 @@
       ]
     },
     "ios": {
+      "bundleIdentifier": "com.ibacbrasil.jornada",
+      "supportsTablet": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "Precisamos da câmera pra acessar o site.",
-        "NSMicrophoneUsageDescription": "Precisamos do microfone pra chamadas ou gravações.",
+        "CFBundleDevelopmentRegion": "pt_BR",
+        "CFBundleLocalizations": ["pt"],
+        "NSCameraUsageDescription": "Precisamos acessar a câmera para que você possa usar funcionalidades do site dentro do app.",
+        "NSMicrophoneUsageDescription": "Precisamos do microfone para chamadas e gravações dentro do app.",
+        "NSPhotoLibraryUsageDescription": "Precisamos acessar suas fotos para carregar e baixar arquivos quando solicitado.",
+        "NSUserTrackingUsageDescription": "Suas informações não serão usadas para acompanhar você fora deste app sem consentimento explícito.",
         "ITSAppUsesNonExemptEncryption": false
-      },
-      "bundleIdentifier": "com.ibacbrasil.jornada"
+      }
     },
     "icon": "assets/images/icon.png",
     "splash": {
@@ -33,13 +35,16 @@
       "backgroundColor": "#ffffff"
     },
     "extra": {
-      "eas": {
-        "projectId": "4232eace-4a11-4ef9-8131-926c3bd3e5b7"
-      }
+      "eas": { "projectId": "4232eace-4a11-4ef9-8131-926c3bd3e5b7" }
     },
     "owner": "rodrigomarafon",
     "plugins": [
-      "expo-audio"
+      [
+        "expo-build-properties",
+        {
+          "ios": { "deploymentTarget": "11.0" }
+        }
+      ]
     ]
   }
 }
