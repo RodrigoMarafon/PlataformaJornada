@@ -2,7 +2,7 @@
   "expo": {
     "name": "Plataforma_Jornada",
     "slug": "Jornada",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "orientation": "default",
     "platforms": ["android", "ios"],
     "android": {
