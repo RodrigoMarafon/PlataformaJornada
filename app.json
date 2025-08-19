@@ -1,17 +1,22 @@
 {
   "expo": {
     "name": "Plataforma Jornada",
-    "slug": "Plataforma Jornada",
+    "slug": "Plataforma_Jornada",
     "version": "1.0.5",
     "orientation": "default",
-    "platforms": ["android", "ios"],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "android": {
       "package": "com.ibacbrasil.jornada",
       "permissions": [
         "CAMERA",
         "RECORD_AUDIO",
         "WAKE_LOCK",
-        "MODIFY_AUDIO_SETTINGS"
+        "MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
     "ios": {
@@ -19,7 +24,9 @@
       "supportsTablet": true,
       "infoPlist": {
         "CFBundleDevelopmentRegion": "pt",
-        "CFBundleLocalizations": ["pt"],
+        "CFBundleLocalizations": [
+          "pt"
+        ],
         "NSCameraUsageDescription": "Precisamos acessar a câmera para que você possa usar funcionalidades do site dentro do app.",
         "NSMicrophoneUsageDescription": "Precisamos do microfone para chamadas e gravações dentro do app.",
         "NSPhotoLibraryUsageDescription": "Precisamos acessar suas fotos para carregar e baixar arquivos quando solicitado.",
@@ -34,10 +41,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "4232eace-4a11-4ef9-8131-926c3bd3e5b7"
+        "projectId": "48d2d7f3-6f3e-47c8-b489-a1334ff8717e"
       }
     },
-    "owner": "rodrigomarafon",
     "plugins": [
       "expo-audio",
       [
