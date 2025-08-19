@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Jornada",
-    "slug": "Jornada",
-    "version": "1.0.0",
+    "name": "Plataforma Jornada",
+    "slug": "Plataforma Jornada",
+    "version": "1.0.5",
     "orientation": "default",
     "platforms": ["android", "ios"],
     "android": {
